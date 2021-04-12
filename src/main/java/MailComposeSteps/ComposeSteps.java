@@ -38,12 +38,12 @@ public class ComposeSteps extends MainUI {
 	//=============Enter Username and password=============
 	@Then("Enter Username or Email")
 	public void enter_Username_Email() {
-		driver.findElement(By.id("login1")).sendKeys("dhananjaychauhan.mca");
+		driver.findElement(By.id("login1")).sendKeys("username"); // enter valid username/emailid
 	}
 
 	@Then("Enter the password")
 	public void enter_the_password() {
-		driver.findElement(By.id("password")).sendKeys("Ksrp@123");
+		driver.findElement(By.id("password")).sendKeys("password");  //enter valid password
 	}
 
 	@When("Clicks on Sign in button")
@@ -72,7 +72,7 @@ public class ComposeSteps extends MainUI {
 
 	@Then("Enter name or email of rec")
 	public void enter_name_or_email_of_rec() {
-		driver.findElement(By.xpath("//*[@id='TO_IDcmp2']")).sendKeys("dhananjaychauhan3@gmail.com");
+		driver.findElement(By.xpath("//*[@id='TO_IDcmp2']")).sendKeys("example@test.com");// enter valid recipient email id
 	}
 
 	@Then("Enter Incubyte in mail subject")
