@@ -1,4 +1,4 @@
-# Proceed to the below loaction and upadte username and password with the valid username and passsword
+# Proceed to the below location and update username and password with the valid username and password
 
 *****Make the below changes before executing the code********
 
