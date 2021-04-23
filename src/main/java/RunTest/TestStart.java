@@ -13,4 +13,3 @@ public class TestStart {
 
 }
 
-("user.dir") + "\\src\\main\\java\\Feature");
